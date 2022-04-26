@@ -1,0 +1,159 @@
+@font-face{
+
+    font-family: Minecraft;
+    src: url(assets/font/Minecraft.ttf);
+
+    font-family: pixelFont2;
+    src: url(assets/font/pixelFont2.ttf);
+
+}
+
+h1 {
+    color: #f1f1f1;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse
+
+}
+.parentBackground{
+    position: relative;
+    height: 505px;
+}
+
+
+#boxchat{
+    position: relative;
+    bottom: 40px;    
+    width: 500px;
+    font-family: Minecraft;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: 3px solid #000000;
+    padding: 10px;
+}
+
+.parentButton {
+    display: grid; 
+    grid-template-columns: 1fr 1r; 
+    grid-template-rows: 1fr 1fr; 
+    grid-template-areas: 
+    "attaque bouclier"
+    "potionvie potionpoison"; 
+    justify-items: center;
+    background-color: rgb(186, 186, 186);
+    border: 3px solid #000000;
+
+}
+
+  .attaque { grid-area: attaque; }
+  .potionvie { grid-area: potionvie; }
+  .bouclier { grid-area: bouclier; }
+  .potionpoison { grid-area: potionpoison; }
+
+
+  .parentButton > * {
+      font-family: Minecraft;
+      font-size: 17px;
+      border-radius: 15px;
+      width: 70%;
+      height: 40px;
+      margin:10px;
+      border-color: #000000;      
+    }
+
+#pictureC {
+    position: relative;
+    border: 3px solid #000000;
+    width: 500px;
+    height: 500px;
+    }
+    
+#game {
+    border: 2px solid #f1f1f1;
+}
+
+
+.container{
+    position: relative;
+    border: 5px solid rgb(87, 87, 87);
+}
+
+
+#hero{
+    position: absolute;
+    left: 20px;
+    bottom: 290px;
+    width: 150px;
+    height: 150px;
+    image-rendering: pixelated;
+
+}
+
+#monstre{
+    position: absolute;
+    right: 20px;
+    bottom: 290px;
+    width: 150px;
+    height: 150px;
+    image-rendering: pixelated;
+
+}
+
+
+.elementParent{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    height: 20px;
+    gap: 100px;
+    z-index: 1;
+}
+
+#barHero,
+#barMonster {
+    appearance: none;
+}
+
+#barHero::-webkit-progress-value,
+#barMonster::-webkit-progress-value{
+    background-color: green;
+
+}
+
+
+.inventory {
+    display: grid;
+    gap: 10px;
+    border: 1px solid rgb(87, 87, 87);    
+    background: url(/assets/imgInventaire/Bois.png);
+    padding: 5px 0 5px; 
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    width: 80px;
+}
