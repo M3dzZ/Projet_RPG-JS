@@ -29,11 +29,15 @@ Soudainement, une entité apparaît...</p>
 
 <h2>Fonctionnnalités supplémentaire</h2>
 
+<ul>
+
 <li>Landing Page avec 'Nouvelle Partie', 'Crédits' et 'Quitter'</li>
 <li>Musique et sound effect</li>
 <li>Ajout de quête</li>
 <li>Collisions sur les bords de la map</li>
 <li>Page pour mort du joueur et victoire</li>
+
+</ul>
 
 <h1>Technologies utilisées</h1>
 
