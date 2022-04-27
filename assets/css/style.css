@@ -99,6 +99,8 @@ h1 {
 
 .item img {
     width: 100px;
+    image-rendering: pixelated;
+
 }
 
 .background-lose {
@@ -204,3 +206,5 @@ p {
     flex-direction: column;
     align-items: center;
 }
+
+
