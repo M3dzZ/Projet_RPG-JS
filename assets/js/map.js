@@ -500,6 +500,7 @@ game.width = 650;
 game.height = 500;
 
 const taillePlayer = 50;
+const taillePlayerLarge = 60;
 
 //classe qui permet de créer les coordonnée des monstre et joueur 
 
@@ -533,9 +534,11 @@ ctx.drawImage(PictureMonstre, 5, 5, taillePlayer, taillePlayer);
 
 
 const player = new Image();
+
 player.src = "assets/img/perso-front.png";
 player.onload = () => {
-   ctx.drawImage(player, hero.x, hero.y, taillePlayer, taillePlayer);
+   ctx.drawImage(player, hero.x, hero.y, taillePlayer, taillePlayerLarge);
+
 }
 
 
@@ -554,15 +557,11 @@ leG.onload = () => {
 const PlayerFin = new Image();
 PlayerFin.src = "assets/img/perso-front.png";
 PlayerFin.onload = () => {
-    ctx.drawImage(PlayerFin, 550, 230, taillePlayer, taillePlayer);
+    ctx.drawImage(PlayerFin, 550, 230, taillePlayer, taillePlayerLarge);
 }
 
 
     
-
-
-
-
 let local = localStorage.getItem("hero");
 let localMonstre= localStorage.getItem("Monstre")
 let sauvegarde = JSON.parse(local);
@@ -933,7 +932,7 @@ const loop = () => {
 
     ctx.drawImage(PictureMap, 0, 0, game.width, game.height);
     
-    ctx.drawImage(player, hero.x, hero.y, taillePlayer, taillePlayer);
+    ctx.drawImage(player, hero.x, hero.y, taillePlayer, taillePlayerLarge);
 
     ctx.drawImage(PictureMonstre, monstre.x, monstre.y , taillePlayer, taillePlayer);
     if (NameMap===mapetage11){
@@ -941,7 +940,7 @@ const loop = () => {
     }
 
     if (NameMap===mapetage3grotte){
-        ctx.drawImage(PlayerFin, 550, 230, taillePlayer, taillePlayer);
+        ctx.drawImage(PlayerFin, 550, 230, taillePlayer, taillePlayerLarge);
 
     }
     
