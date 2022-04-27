@@ -39,9 +39,7 @@ Soudainement, une entité apparaît...</p>
 
 <h2>Front-end</h2>
 
-<img  src = "assets/imgReadme/html.png">
-<img src = "assets/imgReadme/css.png">
-<img src = "assets/imgReadme/js.png">
+<img  src = "assets/imgReadme/html.png"> <img src = "assets/imgReadme/css.png"> <img src = "assets/imgReadme/js.png">
 
 <h2>Outils</h2>
 
