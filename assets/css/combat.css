@@ -106,10 +106,10 @@ body {
 
 }
 
-#monstre{
+#monstre {
     position: absolute;
-    right: 20px;
-    bottom: 290px;
+    right: 40px;
+    top: 80px;
     width: 150px;
     height: 150px;
     image-rendering: pixelated;
