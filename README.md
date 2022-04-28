@@ -49,7 +49,3 @@ Soudainement, une entité apparaît...</p>
 
 <img src = "assets/imgReadme/photoshop.png">
 
-<h2>Capture d'écran</h2>
-
-
-<img src = "assets/imgReadme/picture-readMe.png">
