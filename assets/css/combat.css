@@ -66,12 +66,12 @@ body {
   .potionpoison { grid-area: potionpoison; }
 
 
-  .parentButton > * {
-      font-family: Minecraft;
-      font-size: 17px;
-      border-radius: 15px;
-      width: 70%;
-      height: 40px;
+.parentButton > * {
+    font-family: Minecraft;
+    font-size: 17px;
+    border-radius: 15px;
+    width: 70%;
+    height: 40px;
       margin:10px;
       border-color: #000000;      
     }
