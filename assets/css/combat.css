@@ -60,10 +60,21 @@ body {
 
 }
 
-  .attaque { grid-area: attaque; }
-  .potionvie { grid-area: potionvie; }
-  .bouclier { grid-area: bouclier; }
-  .potionpoison { grid-area: potionpoison; }
+.attaque {
+    grid-area: attaque;
+}
+
+.potionvie {
+    grid-area: potionvie;
+}
+
+.bouclier {
+    grid-area: bouclier;
+}
+
+.potionpoison {
+    grid-area: potionpoison;
+}
 
 
 .parentButton > * {
