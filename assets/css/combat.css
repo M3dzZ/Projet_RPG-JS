@@ -48,15 +48,16 @@ body {
 }
 
 .parentButton {
-    display: grid; 
-    grid-template-columns: 1fr 1r; 
-    grid-template-rows: 1fr 1fr; 
-    grid-template-areas: 
-    "attaque bouclier"
-    "potionvie potionpoison"; 
+    display: grid;
+    grid-template-columns: 1fr 1r;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "attaque bouclier"
+        "potionvie potionpoison";
     justify-items: center;
     background-color: rgb(186, 186, 186);
     border: 3px solid #000000;
+    border-radius:  25px;
 
 }
 
