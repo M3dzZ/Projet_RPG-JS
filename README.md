@@ -52,3 +52,4 @@ Soudainement, une entité apparaît...</p>
 <h2>Capture d'écran</h2>
 
 
+<img src = "assets/imgReadme/picture-readMe.png">
