@@ -42,10 +42,10 @@ body {
 
 #hero{
     position: absolute;
-    bottom: 250px;
-    left: 45px;
-    width: 150px;
-    height: 150px;
+    left: 20px;
+    bottom: 260px;
+    width: 170px;
+    height: 200px;
     image-rendering: pixelated;
 }
 
