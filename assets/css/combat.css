@@ -72,9 +72,9 @@ body {
     border-radius: 15px;
     width: 70%;
     height: 40px;
-      margin:10px;
-      border-color: #000000;      
-    }
+    margin: 10px;
+    border-color: #000000;
+}
 
 #pictureC {
     position: relative;
