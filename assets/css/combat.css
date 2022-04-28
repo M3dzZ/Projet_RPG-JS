@@ -136,8 +136,47 @@ body {
 #barHero::-webkit-progress-value,
 #barMonster::-webkit-progress-value{
     background-color: green;
+    
 
 }
+
+.lifeBarStyleMonster{
+    font-family: Minecraft;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    width: 40%;
+    height: 50px;
+    background-color: white;
+    gap: 10px;
+    border-radius: 10px 0;
+    border: 2px solid #000000;
+    z-index: 1;
+
+}
+
+.lifeBarStyleHero{
+    font-family: Minecraft;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 320px;
+    right: 50px;
+    width: 40%;
+    height: 50px;
+    background-color: white;
+    gap: 10px;
+    border-radius: 10px 0;
+    border: 2px solid #000000;
+    z-index: 1;
+}
+
 
 
 .inventory {
