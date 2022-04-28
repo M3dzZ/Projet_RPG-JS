@@ -199,5 +199,6 @@ body {
 }
 
 .item img {
-    width: 80px;
+    width: 70px;
+    image-rendering: pixelated;
 }
