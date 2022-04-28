@@ -135,8 +135,9 @@ body {
     appearance: none;
 }
 
+
 #barHero::-webkit-progress-value,
-#barMonster::-webkit-progress-value{
+#barMonster::-webkit-progress-value {
     background-color: green;
     
 
