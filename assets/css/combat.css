@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
 
     font-family: Minecraft;
     src: url(assets/font/Minecraft.ttf);
@@ -31,7 +31,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse
-
 }
 
 .parentBackground {
@@ -110,7 +109,6 @@ body {
 
 .container {
     position: relative;
-    border: 5px solid rgb(87, 87, 87);
 }
 
 
@@ -121,7 +119,6 @@ body {
     width: 170px;
     height: 200px;
     image-rendering: pixelated;
-
 }
 
 #monstre {
