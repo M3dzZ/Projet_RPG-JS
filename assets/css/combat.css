@@ -96,12 +96,12 @@ body {
 }
 
 
-#hero{
+#hero {
     position: absolute;
     left: 20px;
-    bottom: 290px;
-    width: 150px;
-    height: 150px;
+    bottom: 165px;
+    width: 170px;
+    height: 200px;
     image-rendering: pixelated;
 
 }
