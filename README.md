@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="50%" src="./assets/imgReadme/imgReadme.png">
+</p>
+
 <h2>Histoire</h2>
 
 <p>Le personnage se réveille dans un endroit qui lui est inconnu.
